@@ -30,7 +30,9 @@ While the model boasts a strong **ROC-AUC of 0.84** (making it exceptional at ra
 * *Operational Execution:* The system safely isolates the top 25% of absolute high-converting "strike zone" leads for immediate routing to senior account executives, while the remaining population is systematically funneled into automated marketing nurture paths.
 
 ## Visuals
-[Dashboard] ()
+[Dashboard1] (https://github.com/akandug/lead-intelligence-optimizer/blob/main/leaddashboard1.PNG)
+
+[Dashboard2] ()
 
 ##  Strategic Recommendations Implemented
 1. **Automate Speed-to-Lead:** Instantly route leads with a Behavioral Velocity Score > 2.5 and 2+ Pricing Page views to Senior AEs with an SLA of under 1 hour.
