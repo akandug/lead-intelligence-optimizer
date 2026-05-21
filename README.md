@@ -2,7 +2,7 @@
 An end-to-end B2B data pipeline and machine learning scoring system that identifies high-intent prospects and predicts conversion probabilities. This system shifts sales focus from traditional firmographic "Big Names" to dynamic behavioral triggers, optimizing outreach efficiency.
 
 ##  Business Problem & Impact
-The sales team was overwhelmed by a volume of 2,500 leads with a low baseline conversion rate of 5.21%. High-value sales development representatives (SDRs) spent excessive time on low-intent enterprise tech leads ("kicking tires"), while high-converting, time-sensitive leads went cold due to delayed response times.
+The sales team was overwhelmed by a volume of 2,500 leads with a low baseline conversion rate of 5.21%. High-value sales development representatives (SDRs) spent excessive time on low-intent enterprise tech leads, while high-converting, time-sensitive leads went cold due to delayed response times.
 
 **Key Achievements:**
 * **Model Performance:** Achieved an **ROC-AUC of 0.84** for ranking lead quality.
@@ -16,6 +16,8 @@ The sales team was overwhelmed by a volume of 2,500 leads with a low baseline co
 * **Business Intelligence:** Tableau (Executive KPI Tracking & Interactive Behavioral Scatter Plots).
 
 ##  Key Insights & Model Analytics
+
+## 1. I observed that your company's conversion "sweet spot" is an Education or Healthcare lead who arrived via a Webinar, has viewed the Pricing Page 2+ times, and is moving with a Velocity Score above 4.0. Conversely, you are losing significant efficiency by chasing large Tech firms and leads that have gone "cold" beyond 40 days without action. 
 
 ### 1. Feature Importance (SHAP Explainability)
 The XGBoost model highlighted a major operational bottleneck:
