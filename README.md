@@ -17,14 +17,15 @@ The sales team was overwhelmed by a volume of 2,500 leads with a low baseline co
 
 ##  Key Insights & Model Analytics
 
-## 1. I observed that your company's conversion "sweet spot" is an Education or Healthcare lead who arrived via a Webinar, has viewed the Pricing Page 2+ times, and is moving with a Velocity Score above 4.0. Conversely, you are losing significant efficiency by chasing large Tech firms and leads that have gone "cold" beyond 40 days without action. 
+## 1. 
+I observed that your company's conversion "sweet spot" is an Education or Healthcare lead who arrived via a Webinar, has viewed the Pricing Page 2+ times, and is moving with a Velocity Score above 4.0. Conversely, you are losing significant efficiency by chasing large Tech firms and leads that have gone "cold" beyond 40 days without action. 
 
-### 1. Feature Importance (SHAP Explainability)
+### 2. Feature Importance (SHAP Explainability)
 The XGBoost model highlighted a major operational bottleneck:
 * **`Days Since Last Action` (Recency):** The number one feature driving conversion decline. Leads decay rapidly if left uncontacted past 14 days.
 * **`Pricing Page Views`:** A high-velocity indicator of intent. Two or more pricing page views serve as a much stronger conversion signal than routine whitepaper or content downloads.
 
-### 2. The Model Performance Trade-Off
+### 3. The Model Performance Trade-Off
 While the model boasts a strong **ROC-AUC of 0.84** (making it exceptional at ranking the absolute best leads for the "Daily Hot List"), the current **Recall for Class 1 stands at 0.27**. 
 * *Operational Execution:* The system safely isolates the top 25% of absolute high-converting "strike zone" leads for immediate routing to senior account executives, while the remaining population is systematically funneled into automated marketing nurture paths.
 
