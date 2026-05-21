@@ -32,7 +32,7 @@ While the model boasts a strong **ROC-AUC of 0.84** (making it exceptional at ra
 ## Visuals
 [Dashboard1] (https://github.com/akandug/lead-intelligence-optimizer/blob/main/leaddashboard1.PNG)
 
-[Dashboard2] ()
+[Dashboard2] (https://github.com/akandug/lead-intelligence-optimizer/blob/main/leaddashboard2.PNG)
 
 ##  Strategic Recommendations Implemented
 1. **Automate Speed-to-Lead:** Instantly route leads with a Behavioral Velocity Score > 2.5 and 2+ Pricing Page views to Senior AEs with an SLA of under 1 hour.
